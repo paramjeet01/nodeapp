@@ -1,3 +1,3 @@
 FROM node:latest
-COPY nodeapp.js
+COPY nodeapp.js .
 CMD [ "node", "nodeapp.js"]
